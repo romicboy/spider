@@ -13,3 +13,8 @@ class Spider:
         request = urllib2.Request(url)
         response = urllib2.urlopen(request)
         return BeautifulSoup(response)
+
+    def get_response(self, url):
+        request = urllib2.Request(url)
+        response = urllib2.urlopen(request)
+        return response.read()
