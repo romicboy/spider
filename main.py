@@ -1,9 +1,7 @@
 # coding=utf-8
-import douban
 import json
-import ck
-import spider
 
+from site import ck, douban
 
 douban_id = 26363254
 ck_id = 27897

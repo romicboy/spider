@@ -1,6 +1,8 @@
 # coding=utf-8
-import spider
 import json
+
+from tools import spider
+
 
 class Info():
 

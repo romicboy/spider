@@ -1,6 +1,8 @@
 # coding=utf-8
 import collections
-import spider
+
+from tools import spider
+
 
 class Info():
 
