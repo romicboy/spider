@@ -1,7 +1,7 @@
 # coding=utf-8
 import json
 
-from site import ck, douban
+from station import ck, douban
 
 douban_id = 26363254
 ck_id = 27897
